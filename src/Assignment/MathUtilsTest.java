@@ -37,9 +37,9 @@ class MathUtilsTest {
 
 		assertEquals("THe multiply check for single value", 3, testobj.multiply(3, 1));
 
-//		assertEquals("THe divide check for single value", 3.0, testobj.divide(6.0, 2.0, 0.1));
+		assertEquals(2.0f, testobj.divide(5, 2), 0.001);
 
-//		assertEquals("THis is to check when / 0 : ", -1.0, testobj.divide(2.0,0.0));
+		assertEquals(-1.0f , testobj.divide(5, 0),0.001);
 	}
 
 }

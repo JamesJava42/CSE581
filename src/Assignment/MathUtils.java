@@ -18,7 +18,7 @@ public class MathUtils {
 		return multvalue;
 		
 	}
-	 double divide(double d, double e) {
+	 double divide(int d, int e) {
 		double divvalue = 0;
 		if(e == 0) {
 			divvalue = -1.0;
